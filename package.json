@@ -1,0 +1,21 @@
+{
+  "name": "spider-script-brunch",
+  "version": "0.0.1",
+  "description": "Adds Spider script support to brunch.",
+  "author": "Hady Ahmed (http://hady.svbtle.com/)",
+  "homepage": "https://github.com/l0gicpath/spider-script-brunch",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:l0gicpath/spider-script-brunch.git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "dependencies": {
+    "spider-script": "~0.1.5"
+  },
+  "devDependencies": {
+    "mocha": "1.11.0",
+    "chai": "1.7.0"
+  }
+}

@@ -24,8 +24,6 @@ SpiderScriptCompiler.prototype.compile = function(data, path, callback) {
     target: defaultFor(this.target, 'ES5')
   };
 
-  console.log(">>>>", options);
-
   var compiled = spiderscript.compile({
     text: data,
     fileName: path,
